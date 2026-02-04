@@ -3,9 +3,9 @@ import '@fortawesome/fontawesome-free/css/all.css';
 import './App.scss';
 import { Navigate, NavLink, Route, Routes } from 'react-router-dom';
 import classNames from 'classnames';
-import { Home } from './components/Home/Home';
-import { TabsPage } from './components/TabsPage/TabsPage';
-import { NotFound } from './components/NotFound/NotFound';
+import { Home } from './pages/Home/Home';
+import { TabsPage } from './pages/TabsPage/TabsPage';
+import { NotFound } from './pages/NotFound/NotFound';
 
 const tabs = [
   { id: 'tab-1', title: 'Tab 1', content: 'Some text 1' },
